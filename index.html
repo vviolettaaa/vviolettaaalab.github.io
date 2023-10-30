@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Досягнення</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container-xl">
+                <nav class="nav">
+                    <a href="index.html" class="link-logo">Bag Bliss</a>
+                    <input type="search" class="nav-search" placeholder="Пошук">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle btn-style btn-drop" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Меню
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li class="nav__list-item">
+                                <a class="nav__list-link" href="login.html">Логін</a>
+                            </li>
+                            <li class="nav__list-item">
+                                <a class="nav__list-link" href="test.html">Опитування</a>
+                            </li>
+                            <li class="nav__list-item">
+                                <a class="nav__list-link" href="news.html">Новини</a>
+                            </li>
+                            <li class="nav__list-item"><button type="button" class="btn btn-primary btn-style"
+                                    data-bs-toggle="modal" data-bs-target="#staticBackdrop">Увійти
+                                </button></li>
+                            <li class="nav__list-item"><input type="search" class="nav-search search-drop"
+                                    placeholder="Пошук"></li>
+                        </ul>
+                    </div>
+                    <ul class="nav__list">
+                        <li class="nav__list-item">
+                            <a class="nav__list-link" href="login.html">Логін</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a class="nav__list-link" href="test.html">Опитування</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a class="nav__list-link" href="news.html">Новини</a>
+                        </li>
+                        <li class="nav__list-item"><button type="button" class="btn btn-primary btn-style"
+                                data-bs-toggle="modal" data-bs-target="#staticBackdrop">Увійти
+                            </button></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="top">
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-content rounded-4 shadow">
+                                <div class="modal-header p-5 pb-4 border-bottom-0">
+                                    <h1 class="fw-bold mb-0 fs-2">Увійти</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+
+                                <div class="modal-body p-5 pt-0">
+                                    <form class="">
+                                        <div class="form-floating mb-3">
+                                            <input type="email" class="form-control rounded-3" id="floatingInput"
+                                                placeholder="name@example.com">
+                                            <label for="floatingInput">Email</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input type="password" class="form-control rounded-3" id="floatingPassword"
+                                                placeholder="Password">
+                                            <label for="floatingPassword">Пароль</label>
+                                        </div>
+                                        <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary"
+                                            type="submit">Увійти</button>
+                                        <small class="text-body-secondary">Натискаючи "Зареєструватися", ви погоджуєтеся
+                                            з
+                                            з умовами використання.</small>
+                                        <hr class="my-4">
+                                        <h2 class="fs-5 fw-bold mb-3">Або скористайтеся послугами третьої сторони</h2>
+                                        <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3"
+                                            type="submit">
+                                            <svg class="bi me-1" width="16" height="16">
+                                                <use xlink:href="#twitter"></use>
+                                            </svg>
+                                            Увійти через Twitter
+                                        </button>
+                                        <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                                            <svg class="bi me-1" width="16" height="16">
+                                                <use xlink:href="#facebook"></use>
+                                            </svg>
+                                            Увійти через Facebook
+                                        </button>
+                                        <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3"
+                                            type="submit">
+                                            <svg class="bi me-1" width="16" height="16">
+                                                <use xlink:href="#github"></use>
+                                            </svg>
+                                            Увійти через GitHub
+                                        </button>
+                                        <a href="#" class="btn-log-style">Увійти через Instagram</a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-xl">
+                    <div class="top__content">
+                        <h2 class="top__content-title">Брендові сумки в Bag Bliss</h2>
+                        <a href="#Catalog" class="top__content-link">Перейти до каталогу</a>
+                        <p class="top__content-text"></p>
+                    </div>
+                </div>
+            </section>
+            <section class="gallery" id="Catalog">
+                <div class="container-xl">
+                    <h2 class="gallery-title">Каталог Сумок</h2>
+                    <div class="grid">
+                        <ul class="gallery__list">
+                            <li class="gallery__list-item">
+                                <img src="img/8f_10000103000100936_1.webp" alt="" class="gallery__list-img">
+                                <h2 class="gallery__list-title">LANCEL</h2>
+                                <p class="gallety__list-text">Сумка M Flap Bag Коричневий</p>
+                                <p class="gallery__list-price">19 489,00 грн</p>
+                                <a href="#" class="gallery__list-btn">Придбати</a>
+                            </li>
+                            <li class="gallery__list-item">
+                                <img src="img/121.webp" alt="" class="gallery__list-img">
+                                <h2 class="gallery__list-title">LIU JO</h2>
+                                <p class="gallety__list-text">Сумка Ecs M Satchel Коричневий</p>
+                                <p class="gallery__list-price">6 779,00 грн</p>
+                                <a href="#" class="gallery__list-btn">Придбати</a>
+                            </li>
+                            <li class="gallery__list-item">
+                                <img src="img/sum5.webp" alt="" class="gallery__list-img">
+                                <h2 class="gallery__list-title">TRUSSARDI</h2>
+                                <p class="gallety__list-text">Сумка Nadir Tote Sm Full Коричневий</p>
+                                <p class="gallery__list-price">75 850,00грн</p>
+                                <a href="#" class="gallery__list-btn">Придбати</a>
+                            </li>
+                            <li class="gallery__list-item">
+                                <img src="img/sum1.webp" alt="" class="gallery__list-img">
+                                <h2 class="gallery__list-title">GUESS</h2>
+                                <p class="gallety__list-text">Сумка Katey (KA) Чорний</p>
+                                <p class="gallery__list-price">4 199,00грн</p>
+                                <a href="#" class="gallery__list-btn">Придбати</a>
+                            </li>
+                            <li class="gallery__list-item">
+                                <img src="img/sum2.webp" alt="" class="gallery__list-img">
+                                <h2 class="gallery__list-title">DKNY</h2>
+                                <p class="gallety__list-text">Сумка Belle Satchel Чорний</p>
+                                <p class="gallery__list-price">15 379,00 грн</p>
+                                <a href="#" class="gallery__list-btn">Придбати</a>
+                            </li>
+                            <li class="gallery__list-item">
+                                <img src="img/sum4.webp" alt="" class="gallery__list-img">
+                                <h2 class="gallery__list-title">GUESS</h2>
+                                <p class="gallety__list-text">Сумка Zadie Girlfriend Tote Чорний</p>
+                                <p class="gallery__list-price">5 299,00 грн</p>
+                                <a href="#" class="gallery__list-btn">Придбати</a>
+                            </li>
+                            <li class="gallery__list-item">
+                                <img src="img/sum3.webp" alt="" class="gallery__list-img">
+                                <h2 class="gallery__list-title">CALVIN KLEIN</h2>
+                                <p class="gallety__list-text">Сумка Ck Must Mini Tote Жовтий</p>
+                                <p class="gallery__list-price">4 099,00 грн</p>
+                                <a href="#" class="gallery__list-btn">Придбати</a>
+                            </li>
+                            <li class="gallery__list-item">
+                                <img src="img/sum2.webp" alt="" class="gallery__list-img">
+                                <h2 class="gallery__list-title">TOMMY HILFIGER</h2>
+                                <p class="gallety__list-text">Сумка Th Emblem Satchel Чорний</p>
+                                <p class="gallery__list-price">5 199,00 грн</p>
+                                <a href="#" class="gallery__list-btn">Придбати</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="comments">
+                <div class="container-xl">
+                    <h2 class="comments-title">Коментарі</h2>
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active corusel-style">
+                                <div class="content-coms">
+                                <img src="img/ava1.webp" class="d-block w-5 img-style" alt="...">
+                                <h3 class="text-name">Олена</h3>
+                                <p class="text-coments">Ця сумочка — моя знахідка! Я довго шукала щось елегантне та вмістке, і ось вона — ідеальна! Тепер мої дні стали яскравішими, адже у мене є така краса</p></div>
+                            </div>
+                            <div class="carousel-item corusel-style">
+                                <div class="content-coms">
+                                <img src="img/ava1.webp" class="d-block w-5 img-style" alt="...">
+                                <h3 class="text-name">Ірина</h3>
+                                <p class="text-coments">Просто закохана у свою нову сумку! Вона така стильна та зручна, ідеально підходить до всіх моїх образів. Дякую магазину за таку красу!</p></div>
+                            </div>
+                            <div class="carousel-item corusel-style">
+                                <div class="content-coms">
+                                <img src="img/ava1.webp" class="d-block w-5 img-style" alt="...">
+                                <h3 class="text-name">Катерина</h3>
+                                <p class="text-coments">Моя нова сумочка — просто шедевр! Вона не лише красива, але й дуже зручна. Тепер у мене є місце для всього, що мені потрібно носити з собою, і при цьому я виглядаю стильно. У захваті!</p></div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev next-carus" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next next-carus" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <header class="footer-header">
+                <div class="container-xl">
+                    <nav class="footer-nav">
+                        <p class="footer-nav-text">Зробила Віолєтта Скіцько</p>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle btn-style btn-drop" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Меню
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li class="nav__list-item">
+                                    <a class="nav__list-link" href="login.html">Логін</a>
+                                </li>
+                                <li class="nav__list-item">
+                                    <a class="nav__list-link" href="test.html">Опитування</a>
+                                </li>
+                                <li class="nav__list-item">
+                                    <a class="nav__list-link" href="news.html">Новини</a>
+                                </li>
+                                <li class="nav__list-item"><button type="button" class="btn btn-primary btn-style"
+                                        data-bs-toggle="modal" data-bs-target="#staticBackdrop">Увійти
+                                    </button></li>
+                                <li class="nav__list-item"><input type="search" class="nav-search search-drop"
+                                        placeholder="Пошук"></li>
+                            </ul>
+                        </div>
+                        <ul class="nav__list">
+                            <li class="nav__list-item">
+                                <a class="nav__list-link" href="login.html">Логін</a>
+                            </li>
+                            <li class="nav__list-item">
+                                <a class="nav__list-link" href="test.html">Опитування</a>
+                            </li>
+                            <li class="nav__list-item">
+                                <a class="nav__list-link" href="news.html">Новини</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </footer>
+        <a href="#top" class="up"><svg class="svg-strelka" xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                fill="white" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+            </svg></a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
