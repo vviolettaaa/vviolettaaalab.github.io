@@ -636,7 +636,7 @@ font-family: 'Roboto', sans-serif; */
 
 @media screen and (max-width:560px) {
   .up {
-    inset: 649px 260px;
+    inset: 649px 160px;
     background-color: rgba(0, 0, 0, .7);
   }
 
