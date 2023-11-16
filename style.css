@@ -322,7 +322,7 @@ font-family: 'Roboto', sans-serif; */
   position: fixed;
   justify-content: center;
   align-items: center;
-  inset: 664px 0px 0px 1359px
+  inset: 664px 0px 0px 1359px;
   width: 60px;
   height: 60px;
   border-radius: 50%;
